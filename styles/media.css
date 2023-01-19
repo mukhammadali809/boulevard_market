@@ -1,0 +1,118 @@
+@media (max-width:1200px) {
+    .header_one{
+        display: flex;
+        justify-content: space-around;
+    }
+    .header_menu{
+        width: 100%;
+    }
+    .main_block_title{
+        line-height: 25px;
+        width: 400px;
+        font-size: 22px;
+        margin: 50px 20px;
+        text-align: center;
+    }
+    .main_block{
+        flex-direction: column;
+    }
+    .line1{
+        margin-bottom: 20px;
+    }
+    .line2{
+        margin-top: 20px;
+    }
+    .footer_nav{
+        justify-content: space-around;
+    }
+}
+@media (max-width:1168px){
+    .main_nav{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .main_box{
+        margin-right: 40px;
+    }
+}
+@media (max-width:670px){
+    .header_title{
+        font-size: 90px;
+    }
+}
+@media (max-width:650px) {
+    .footer_nav{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .footer_nav img{
+        margin-bottom: 20px;
+    }
+    .footer_nav_icon{
+        margin-top: 20px;
+    }
+    .footer{
+        height: 270px;
+    }
+    .footer_nav img{
+        margin-right: 50px;
+    }
+}
+@media (max-width:600px) {
+    .main_block_img1{
+        width: 400px;
+    }
+}
+@media (max-width:570px){
+    .header_one{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:450px){
+    .main_block_img1{
+        width: 300px;
+    }
+    .main_block_img2{
+        width: 200px;
+    }
+    .main_block_title{
+        width: 300px;    
+        margin-right: 60px;
+    }
+    .header_box{
+        flex-direction: column;
+    }
+    .header_box ul{
+        margin: 15px 0;
+    }
+    .header_box img{
+        margin: auto;
+        margin-top: 15px;
+    }
+    .header_title{
+        font-size: 75px;
+    }
+    .header_one{
+        margin-right:50px;
+    }
+}
+@media (max-width:350px){
+    .header_box ul{
+        flex-direction: column;
+        margin-right: 25px;
+    }
+    .header_title{
+        font-size: 60px;
+    }
+    .main_block_title{
+        font-size: 17px;
+        width: 170px;
+    }
+    .main_block_img1{
+        width: 250px;
+    }
+    .header_one{
+        margin-right: 50px;
+    }
+}

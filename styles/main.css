@@ -1,0 +1,162 @@
+@import url(../styles/fonts.css);
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.d-flex{
+    display: flex;
+}
+.align_items_center{
+    align-items: center;
+}
+.text_align_center{
+    text-align: center;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.align-items-center{
+    align-items: center;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.header{
+    background: #282828;
+}
+.header_box img{
+    margin: 6px;
+}
+.header_links{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: "monserrat";
+    color: #fff;
+    margin-left: 30px;
+}
+.header_icon a{
+    margin-left: 25px;
+}
+.header_menu{
+    background: url(../img/header_bg.png) center / cover no-repeat;
+    height: 700px;
+    text-align: center;
+}
+.header_title{
+    font-size: 100px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 75px;
+    font-family: "prosta";
+    padding: 204px 0 34px 0;
+}
+.header_text{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "monserrat";
+    border: 0px;
+    border-radius: 10px;
+    background: #fff;
+    width: 200px;
+    margin: auto;
+    padding: 13px;
+}
+.header_text a{
+    margin-left: 11px;
+}
+.main{
+    background: #151515;
+}
+.main_block_title{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #fff;
+    font-family: "monserrat";
+}
+.main_block_line{
+    color: #C4C4C4;
+}
+.line1{
+    margin: 0px 14px 0px 13px;
+}
+.line2{
+    margin: 0px 11px 0px 14px;
+}
+.main_block{
+    padding-top: 50px;
+}
+.main_nav{
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 79px;
+}
+.main_box{
+    background: #fff;
+    width: 255px;
+    height: 312px;
+    border-radius: 6px;
+    margin-bottom: 55px;
+}   
+.main_box_title{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: "monserrat";
+    color: #000;
+    margin: 15px 0 10px 0;
+}
+.main_box_text{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "monserrat";
+    line-height: 17px;
+    color: #000;
+    margin: 10px 0 20px 0;
+}
+.main_box_link{
+    padding: 7px 57px;
+    color: #fff;
+    background: #151515;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "monserrat";
+    line-height: 19px;
+}
+.footer{
+    background: #282828;
+    height: 215px;
+}
+.footer_links{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 24px;
+    font-family: "monserrat";
+    margin-right: 30px;
+}
+.footer_nav{
+    padding-top: 81px;
+}
+
+
+
+
+
+
+
